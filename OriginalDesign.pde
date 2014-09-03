@@ -8,6 +8,7 @@ void setup()
 void draw()
 {
 	background(0, 0, 0);
+  text("Click the screen!", 5, 5, width, height);
 	rocketShipHead();
   rocketShipTail();
    	if(mousePressed== true)
